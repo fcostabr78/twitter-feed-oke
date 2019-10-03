@@ -1,5 +1,4 @@
 Automating Deployment from DevCS to ACC
-fernando.d.costa@oracle.com - oracle br
 ---------------------------------------
 
 These instructions are a *temporary hack* to support deployment from
