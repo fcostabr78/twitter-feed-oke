@@ -4,7 +4,6 @@ box:
   ports:
     - 8080
 
-#Build our application using Maven, just as we always have
 build:
   steps:
     - install-packages:
@@ -13,7 +12,6 @@ build:
         name: maven build
         code: mvn clean assembly:assembly
 
-#Push the docker image with our built and tested application to the Oracle Container Registry
 push-release:
   steps:
     - internal/docker-push:
