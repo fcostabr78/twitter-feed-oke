@@ -9,6 +9,8 @@ in DevCS.  I repeat--this is a temporary hack so please use with caution.
 You can use `deploy.sh` as a *build step* in a DevCS Maven
 build to push a generated application archive to ACC.
 
+hsdkajdhaksjdh
+
 ### Usage
 
 `sh deploy.sh <id domain> <user id> <user password> <app name> <archive file>`
