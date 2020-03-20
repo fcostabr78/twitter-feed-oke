@@ -10,7 +10,6 @@ build:
         packages: maven
     - script:
         name: maven build
-        code: mvn clean assembly:assembly
 
 push-release:
   steps:
