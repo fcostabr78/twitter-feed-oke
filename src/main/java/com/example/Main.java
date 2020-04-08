@@ -87,7 +87,7 @@ public class Main {
                 new CLStaticHttpHandler(new URLClassLoader(new URL[] {
                     new File("target/repo/com/example/1.0-SNAPSHOT/jersey-example-1.0-SNAPSHOT.jar").toURI().toURL()}), "static/"), "/jarstatic");
         System.out.println("In order to test the server please try the following urls:");
-        System.out.println(String.format("%s to see the default resource", BASE_URI));
+        System.out.println(String.format("%s to see the default resource in host", BASE_URI));
         System.out.println(String.format("%sapplication.wadl to see the WADL resource", BASE_URI));
         System.out.println(String.format("%stweets to see the JAX-RS resource", BASE_URI));
         System.out.println(String.format("%stime to see the time", BASE_URI));
@@ -102,7 +102,6 @@ public class Main {
 					System.out.println("Joined current thread.");
 				}
 				catch (Exception e) {
-					System.out.println("Caught Exception: " + e);
 				}
         // System.in.read();
         // server.shutdown();
