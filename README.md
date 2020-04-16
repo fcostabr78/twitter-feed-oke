@@ -1,4 +1,4 @@
-About my code !
+About my code <3
 =====
 
 This repository contains the code for the Twitter feed microservice that you will use during the [Oracle Container Native Application Development workshop](http://oracle.github.io/learning-library/workshops/container-native-development).
